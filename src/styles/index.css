@@ -9,3 +9,44 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.trafficTop {
+    width: 20px;
+    height: 50px;
+    background: black;
+    margin: auto;
+  }
+  
+  .trafficBody {
+    width: 150px;
+    height: 350px;
+    background: black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 15px;
+  }
+  .light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .red {
+    background-color: darkred;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: darkgreen;
+  }
+  
+  .selected {
+    box-shadow: 0px 0px 70px 0px rgb(198, 220, 243);
+  }
+  
